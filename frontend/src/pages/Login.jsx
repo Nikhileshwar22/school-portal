@@ -198,9 +198,9 @@ const Login = () => {
                     style={styles.schoolImg}
                 />
                 <div style={styles.leftBannerText}>
-                    <div style={styles.brandTitle}>School Portal</div>
+                    <div style={styles.brandTitle}>EduPortal 🎓</div>
                     <div style={styles.brandSub}>
-                        A unified management platform for students, teachers, and administrators.
+                        A smart, AI-powered management platform for students, teachers, and administrators. Learn smarter. Manage better.
                     </div>
                 </div>
             </div>
@@ -511,7 +511,7 @@ const Login = () => {
 
                             {/* Quick Demo Login Section */}
                             <div style={styles.demoSection}>
-                                <div style={styles.demoSectionTitle}>Instant Demo Sign In</div>
+                                <div style={styles.demoSectionTitle}>Quick Demo Login</div>
                                 <div style={styles.demoGrid}>
                                     {DEMO_ACCOUNTS.map((acc) => (
                                         <button
